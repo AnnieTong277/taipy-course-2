@@ -375,6 +375,7 @@ Gui(pages=pages, css_file="2_visual_elements/styles.css").run(
     title="Co-Authorship Analysis Dashboard", 
     dark_mode=False, 
     debug=True, 
-    port=int(os.environ.get("PORT", 5000))
+    port=int(os.environ.get("PORT", 5000)),
+    host="0.0.0.0"
 )
 
